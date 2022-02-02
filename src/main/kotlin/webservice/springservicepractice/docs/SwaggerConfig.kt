@@ -31,7 +31,7 @@ class SwaggerConfig {
 
     private fun apiInfo() : ApiInfo {
         return ApiInfoBuilder()
-            .title("민호의 Spring boot Rest API 공부")
+            .title("Panda의 Spring boot Rest API 공부")
             .version("1.0.0")
             .termsOfServiceUrl("서비스 약관 url")
             .license("MIT")
