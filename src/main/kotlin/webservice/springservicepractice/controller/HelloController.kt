@@ -40,11 +40,11 @@ class HelloController {
     @ResponseBody
     fun helloApi(@RequestParam("name") name : String) : Hello {
         val hello = Hello(name)
-        
+
         return hello
     }
 
     class Hello(val name : String) {
-         
+
     }
 }
